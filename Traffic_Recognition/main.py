@@ -23,6 +23,10 @@ class TrafficSignDetector:
         self.model = tf.keras.models.load_model(model_path)
         print("Model loaded successfully")
         
+        # Get expected input shape from model
+        self.input_shape = self.model.input_shape[1:3]  # Get height, width from input shape
+        print(f"Model expects input shape: {self.input_shape}")
+        
         # Sign detector: Using color and shape detection for speed
         self.detector_initialized = False
         
@@ -150,12 +154,11 @@ class TrafficSignDetector:
             # Convert to RGB (our model expects RGB)
             rgb_roi = cv2.cvtColor(sign_roi, cv2.COLOR_BGR2RGB)
             
-            # Convert to PIL and resize
-            pil_img = Image.fromarray(rgb_roi)
-            resized_img = pil_img.resize((30, 30))  # Model input size
+            # Resize directly to expected input size instead of hardcoding 30x30
+            resized_img = cv2.resize(rgb_roi, self.input_shape)
             
             # Normalize and expand dimensions for batch
-            img_array = np.array(resized_img) / 255.0
+            img_array = resized_img.astype('float32') / 255.0
             img_array = np.expand_dims(img_array, axis=0)
             
             # Make prediction
@@ -167,6 +170,8 @@ class TrafficSignDetector:
             
         except Exception as e:
             print(f"Error classifying sign: {e}")
+            import traceback
+            traceback.print_exc()  # Print full traceback for debugging
             return None, 0.0
             
     def add_detection(self, class_id, confidence, box, timestamp):
@@ -202,6 +207,10 @@ class TrafficSignDetector:
         
     def process_frame(self, frame):
         """Process a single frame to detect traffic signs"""
+        if frame is None:
+            print("Warning: Received empty frame")
+            return np.zeros((480, 640, 3), dtype=np.uint8)  # Return empty frame
+            
         # Initialize detector parameters if not done yet
         if not self.detector_initialized:
             self._initialize_detector(frame)
@@ -222,13 +231,13 @@ class TrafficSignDetector:
         
         # 2. Classify each potential sign
         for x, y, w, h in potential_signs:
-            # Skip tiny regions (likely noise)
-            if w < 20 or h < 20:
+            # Skip if region is too small or at edge of frame
+            if w < 20 or h < 20 or x < 0 or y < 0 or x + w >= frame.shape[1] or y + h >= frame.shape[0]:
                 continue
                 
             class_id, confidence = self.classify_sign(frame, x, y, w, h)
             
-            # Only consider high confidence detections
+            # Only consider valid high confidence detections
             if class_id is not None and confidence >= self.confidence_threshold:
                 self.add_detection(class_id, confidence, (x, y, w, h), current_time)
         
@@ -237,7 +246,6 @@ class TrafficSignDetector:
         self._draw_stable_detections(output_frame)
         
         return output_frame
-
     
     def _draw_stable_detections(self, frame):
         """Draw bounding boxes and labels for stable detections"""
@@ -275,7 +283,7 @@ def main():
     args = parser.parse_args()
     
     # Initialize detector
-    model_path = r"D:\GpModules\Traffic_Recognition\model.h5"
+    model_path = r"D:\GpModules\Traffic_Recognition\LeNETModel.h5"
     detector = TrafficSignDetector(
         model_path=model_path,
         confidence_threshold=args.confidence,
@@ -290,30 +298,31 @@ def main():
         
         if not cap.isOpened():
             raise Exception(f"Cannot open video source {video_source}")
-        
-        # For FPS calculation
-        prev_time = time.time()
-        fps = 0
-        fps_alpha = 0.1  # Smoothing factor
             
+        fps_values = []  # Store last 10 FPS values for smoothing
+        
         while True:
             ret, frame = cap.read()
             if not ret:
+                print("End of video or error reading frame")
                 break
                 
             # Process frame
             start_time = time.time()
             processed_frame = detector.process_frame(frame)
-            
-            # Calculate FPS with smoothing and safeguard against division by zero
             process_time = time.time() - start_time
-            if process_time > 0:  # Avoid division by zero
-                current_fps = 1 / process_time
-                fps = fps_alpha * current_fps + (1 - fps_alpha) * fps if fps > 0 else current_fps
             
-            # Display FPS
-            cv2.putText(processed_frame, f"FPS: {fps:.2f}", (10, 30), 
-                        cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+            # Calculate FPS with smoothing
+            if process_time > 0:  # Avoid division by zero
+                current_fps = 1.0 / process_time
+                fps_values.append(current_fps)
+                # Keep only last 10 values
+                if len(fps_values) > 10:
+                    fps_values.pop(0)
+                # Average FPS    
+                avg_fps = sum(fps_values) / len(fps_values)
+                cv2.putText(processed_frame, f"FPS: {avg_fps:.1f}", (10, 30), 
+                            cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
             
             # Display result
             cv2.imshow("Traffic Sign Detection", processed_frame)
@@ -324,6 +333,8 @@ def main():
                 
     except Exception as e:
         print(f"Error: {e}")
+        import traceback
+        traceback.print_exc()
         
     finally:
         if 'cap' in locals():
