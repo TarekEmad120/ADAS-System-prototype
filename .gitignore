@@ -1,3 +1,12 @@
 Traffic_Recognition/Dataset
 Traffic_Recognition/Dataset/Meta
 Traffic_Recognition/CarlaVideos
+Traffic_Recognition/YOLODataset
+Traffic_Recognition/YOLO_dataset
+Traffic_Recognition/YOLO_dataset_structured
+Traffic_Recognition/runs
+Traffic_Recognition/car_yolo_format
+Traffic_Recognition/car_yolo_filtered
+Traffic_Recognition/traffic_light_dataset
+Traffic_Recognition/svm_dataset
+Traffic_Recognition/svm_dataset - Copy
