@@ -42,7 +42,7 @@ pip install pygame numpy pyserial
    - Run `CarlaUE4.exe` or start the server as usual.
 
 2. **Run Manual Control Script**
-   - For lane keeping and EBS:
+   - For all features including lane keeping and emergency braking:
      ```bash
      python manual_control_lane.py
      ```
