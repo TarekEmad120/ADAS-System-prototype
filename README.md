@@ -13,6 +13,8 @@ All features are implemented in Python and utilize the CARLA Python API for real
 - **Auto Parking System**: Parallel and perpendicular parking using ultrasonic sensors, with state machine logic for searching, aligning, and maneuvering.
 - **Sensor Integration**: Utilizes radar and ultrasonic sensors for real-time environment perception.
 - **Driver Monitoring System (DMS)**: (If enabled) Monitors driver state and integrates with vehicle control.
+- **Traffic Sign and light recognition**: Detects traffic signs and lights using computer vision techniques.
+- **Vehicle 2 Vehicle (V2V)**: Communication: Simulates communication between vehicles for cooperative driving scenarios using ADHOC networking.
 - **Telemetry and HUD**: Real-time vehicle telemetry, notifications, and visual feedback.
 
 ## File Overview
