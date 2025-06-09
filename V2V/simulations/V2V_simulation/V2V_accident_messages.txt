@@ -1,0 +1,1188 @@
+=== V2V Accident Communication Log ===
+Simulation started at: 0.1
+----------------------------------------------
+
+==================================================
+🚨 FIRST ACCIDENT DETECTED:
+ Accident car ID: 0
+ Car index: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Simulation time: 20.000000
+ STATUS: Vehicle stopped, sending accident message
+##################################################
+📤 SENDING PACKET:
+ From car: 0
+ Original accident car: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Packet name: accident
+ Simulation time: 20.000000
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 12
+ Original accident car ID: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Simulation time: 20.000154
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 6
+ Original accident car ID: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Simulation time: 20.000154
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 6
+ Original accident car: 0
+ Accident location: (537.526387, 335.330760)
+ Simulation time: 20.000154
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 6
+ Original accident car: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Packet name: relay
+ Simulation time: 20.000154
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 5
+ Original accident car ID: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Simulation time: 20.000154
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 13
+ Original accident car ID: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Simulation time: 20.000154
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 13
+ Original accident car: 0
+ Accident location: (537.526387, 335.330760)
+ Simulation time: 20.000154
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 13
+ Original accident car: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Packet name: relay
+ Simulation time: 20.000154
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 4
+ Original accident car ID: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Simulation time: 20.000155
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 4
+ Original accident car: 0
+ Accident location: (537.526387, 335.330760)
+ Simulation time: 20.000155
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 4
+ Original accident car: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Packet name: relay
+ Simulation time: 20.000155
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 3
+ Original accident car ID: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Simulation time: 20.000155
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 17
+ Original accident car ID: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Simulation time: 20.000155
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 17
+ Original accident car: 0
+ Accident location: (537.526387, 335.330760)
+ Simulation time: 20.000155
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 17
+ Original accident car: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Packet name: relay
+ Simulation time: 20.000155
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 18
+ Original accident car ID: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Simulation time: 20.000156
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 18
+ Original accident car: 0
+ Accident location: (537.526387, 335.330760)
+ Simulation time: 20.000156
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 18
+ Original accident car: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Packet name: relay
+ Simulation time: 20.000156
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 1
+ Original accident car ID: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Simulation time: 20.000156
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 11
+ Original accident car ID: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Simulation time: 20.000156
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 19
+ Original accident car ID: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Simulation time: 20.000157
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 19
+ Original accident car: 0
+ Accident location: (537.526387, 335.330760)
+ Simulation time: 20.000157
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 19
+ Original accident car: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Packet name: relay
+ Simulation time: 20.000157
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 16
+ Original accident car ID: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Simulation time: 20.000158
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 16
+ Original accident car: 0
+ Accident location: (537.526387, 335.330760)
+ Simulation time: 20.000158
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 16
+ Original accident car: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Packet name: relay
+ Simulation time: 20.000158
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 9
+ Original accident car ID: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Simulation time: 20.000158
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 10
+ Original accident car ID: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Simulation time: 20.000158
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 8
+ Original accident car ID: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Simulation time: 20.000159
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 2
+ Original accident car ID: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Simulation time: 20.000159
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 7
+ Original accident car ID: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Simulation time: 20.000161
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 7
+ Original accident car: 0
+ Accident location: (537.526387, 335.330760)
+ Simulation time: 20.000161
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 7
+ Original accident car: 0
+ Accident location: (537.526387, 335.330760)
+ Road ID: 1110710066#2
+ Packet name: relay
+ Simulation time: 20.000161
+----------------------------------------
+
+==================================================
+🚨 SECOND ACCIDENT DETECTED:
+ Accident car ID: 2
+ Car index: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000000
+ STATUS: Vehicle stopped, sending accident message
+##################################################
+📤 SENDING PACKET:
+ From car: 2
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Packet name: accident
+ Simulation time: 35.000000
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 20
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000152
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 8
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000152
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 21
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000152
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 21
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Simulation time: 35.000152
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 21
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Packet name: relay
+ Simulation time: 35.000152
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 16
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000153
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 16
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Simulation time: 35.000153
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 16
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Packet name: relay
+ Simulation time: 35.000153
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 25
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000153
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 10
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000154
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 10
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Simulation time: 35.000154
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 10
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Packet name: relay
+ Simulation time: 35.000154
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 32
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000154
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 32
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Simulation time: 35.000154
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 32
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Packet name: relay
+ Simulation time: 35.000154
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 34
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000154
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 29
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000155
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 11
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000155
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 1
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000155
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 30
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000155
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 17
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000156
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 19
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000156
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 19
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Simulation time: 35.000156
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 19
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Packet name: relay
+ Simulation time: 35.000156
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 26
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000156
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 7
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000156
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 9
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000156
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 4
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000156
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 3
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000156
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 3
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Simulation time: 35.000156
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 3
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Packet name: relay
+ Simulation time: 35.000156
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 5
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000157
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 5
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Simulation time: 35.000157
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 5
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Packet name: relay
+ Simulation time: 35.000157
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 22
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000157
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 22
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Simulation time: 35.000157
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 22
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Packet name: relay
+ Simulation time: 35.000157
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 23
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000159
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 24
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000159
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 0
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000159
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 0
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Simulation time: 35.000159
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 0
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Packet name: relay
+ Simulation time: 35.000159
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 31
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000159
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 6
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000159
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 6
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Simulation time: 35.000159
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 6
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Packet name: relay
+ Simulation time: 35.000159
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 12
+ Original accident car ID: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Simulation time: 35.000159
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 12
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Simulation time: 35.000159
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 12
+ Original accident car: 2
+ Accident location: (2060.718894, 1568.021680)
+ Road ID: :10161612733_1
+ Packet name: relay
+ Simulation time: 35.000159
+----------------------------------------
+
+==================================================
+🚨 THIRD ACCIDENT DETECTED:
+ Accident car ID: 4
+ Car index: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000000
+ STATUS: Vehicle stopped, sending accident message
+##################################################
+📤 SENDING PACKET:
+ From car: 4
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Packet name: accident
+ Simulation time: 50.000000
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 44
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000152
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 17
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000153
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 17
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Simulation time: 50.000153
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 17
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Packet name: relay
+ Simulation time: 50.000153
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 22
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000153
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 5
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000153
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 5
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Simulation time: 50.000153
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 5
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Packet name: relay
+ Simulation time: 50.000153
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 45
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000153
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 24
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000153
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 30
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000154
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 30
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Simulation time: 50.000154
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 30
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Packet name: relay
+ Simulation time: 50.000154
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 38
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000154
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 39
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000154
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 39
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Simulation time: 50.000154
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 39
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Packet name: relay
+ Simulation time: 50.000154
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 3
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000154
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 3
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Simulation time: 50.000154
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 3
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Packet name: relay
+ Simulation time: 50.000154
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 0
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000154
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 26
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000154
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 12
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000154
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 36
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000154
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 36
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Simulation time: 50.000154
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 36
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Packet name: relay
+ Simulation time: 50.000154
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 32
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000154
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 32
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Simulation time: 50.000154
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 32
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Packet name: relay
+ Simulation time: 50.000154
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 6
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000154
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 11
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000155
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 42
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000155
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 31
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000155
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 46
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000155
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 23
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000155
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 23
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Simulation time: 50.000155
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 23
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Packet name: relay
+ Simulation time: 50.000155
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 34
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000155
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 34
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Simulation time: 50.000155
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 34
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Packet name: relay
+ Simulation time: 50.000155
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 49
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000155
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 49
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Simulation time: 50.000155
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 49
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Packet name: relay
+ Simulation time: 50.000155
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 19
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000155
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 19
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Simulation time: 50.000155
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 19
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Packet name: relay
+ Simulation time: 50.000155
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 25
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000156
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 25
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Simulation time: 50.000156
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 25
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Packet name: relay
+ Simulation time: 50.000156
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 41
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000156
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 41
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Simulation time: 50.000156
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 41
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Packet name: relay
+ Simulation time: 50.000156
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 21
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000156
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 21
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Simulation time: 50.000156
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 21
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Packet name: relay
+ Simulation time: 50.000156
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 8
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000156
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 1
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000156
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 33
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000156
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 9
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000156
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 9
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Simulation time: 50.000156
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 9
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Packet name: relay
+ Simulation time: 50.000156
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 29
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000156
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 20
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000156
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 2
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000156
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 2
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Simulation time: 50.000156
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 2
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Packet name: relay
+ Simulation time: 50.000156
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 47
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000156
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 35
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000157
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 35
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Simulation time: 50.000157
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 35
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Packet name: relay
+ Simulation time: 50.000157
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 10
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000157
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 10
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Simulation time: 50.000157
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 10
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Packet name: relay
+ Simulation time: 50.000157
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 37
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000157
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 40
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000158
+========================================
+🔄 RELAYING MESSAGE:
+ Relay car: 40
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Simulation time: 50.000158
+----------------------------------------
+📤 SENDING PACKET:
+ From car: 40
+ Original accident car: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Packet name: relay
+ Simulation time: 50.000158
+----------------------------------------
+📨 RECEIVED PACKET:
+ Receiving car ID: 7
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000158
+========================================
+📨 RECEIVED PACKET:
+ Receiving car ID: 43
+ Original accident car ID: 4
+ Accident location: (1064.759639, 677.610703)
+ Road ID: 1110710057#3
+ Simulation time: 50.000161
+========================================
+
+----------------------------------------------
+Simulation ended at: 60
+=== End of V2V Accident Communication Log ===
