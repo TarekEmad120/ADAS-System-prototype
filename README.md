@@ -1,4 +1,4 @@
-# CARLA Manual Control Lane & Parking
+# CARLA ADAS Stack
 
 This project provides advanced manual control scripts for the CARLA simulator, focusing on lane keeping, emergency braking, and auto-parking systems. It is designed for research and development in autonomous driving, ADAS, and automotive embedded systems.
 All features are implemented in Python and utilize the CARLA Python API for real-time vehicle control and sensor integration using multithreading architecture to simulate ECUs behaviors in a vehicle and ensure smooth operation of multiple systems simultaneously.
